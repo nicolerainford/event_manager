@@ -105,7 +105,7 @@ contents.each do |row|
   save_thank_you_letter(id,form_letter)
   hourArr << hour
   dateArr << date
-  p "#{homephone}"
+  #p "#{homephone}"
 end
 
 popularHour = mode(hourArr)
